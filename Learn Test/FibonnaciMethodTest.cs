@@ -13,7 +13,7 @@ namespace Learn_Test
         [InlineData(19, 4181)]
         public void Method_Fibonnaci_Return_Correct_Value(int bilangan, int ekspetasi)
         {
-            var result = Program.FibonnaciV2(bilangan);
+            var result = LearningBase.FibonnaciV2(bilangan);
 
             Assert.Equal(ekspetasi, result);
         }
